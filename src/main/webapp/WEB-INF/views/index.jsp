@@ -1,11 +1,5 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: iream
-  Date: 25. 3. 27.
-  Time: 오후 2:15
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <title>나만의 포켓몬 만들기</title>
