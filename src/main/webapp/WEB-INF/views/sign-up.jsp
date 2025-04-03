@@ -13,10 +13,10 @@
 <body>
     <form method="post">
         <label>
-        닉네임 : <input type="text" value="id">
+        닉네임 : <input type="text" name="username">
         </label>
         <label>
-            비밀번호 :  <input type="password" value="password">
+            비밀번호 :  <input type="password" name="password">
         </label>
         <button>제출</button>
     </form>

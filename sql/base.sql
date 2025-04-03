@@ -5,3 +5,5 @@ create table poke_user(
 );
 
 ALTER table poke_user rename column poker_user_id to poke_user_id;
+
+truncate table poke_user;
