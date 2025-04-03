@@ -16,6 +16,10 @@ public interface JDBCRepository {
 
     default Connection getConnection(String url, Properties properties) throws SQLException, ClassNotFoundException {
 //        Class.forName("com.mysql.cj.jdbc.Driver");
+        url = "%s%s:%s/%s"
+                .formatted(url, properties.getProperty("host"),
+                        properties.getProperty("port"),
+                        properties.getProperty("database"));
         return DriverManager.getConnection(url, properties);
     }
 }
