@@ -13,11 +13,13 @@
         if(session.getAttribute("pokeUserID") != null){
             %>
     <p>
+        <h3> 로그인 됨 </h3>
         <%= request.getAttribute("pokeUserID") %>
     </p>
     <%
         } else {
             %>
+    <h3> 로그인 하세요 </h3>
     <section>
     <form method="post">
         <label>
